@@ -1,0 +1,31 @@
+student=input("what is the student's name")
+score1=float(input("what is the C.A score"))
+score2=float(input("what is the Mid-term-test"))
+score3=float(input("What is the Exam score"))
+result=0           
+while score1 or score2 or score3 !=0:
+   result+=1
+   if score1//1 < score1:
+      score1=score1//1 + 1
+   if score2//1 < score2:
+      score2=score2//1 + 1
+   if score3//1 < score3:
+      score3=score3//1 + 1
+   else:
+      if score1//1 == score1:
+         score1=score1
+      if score2//1 == score2:
+         score2=score2
+      else:
+         score3=score3
+         
+       
+   print("CA score is",score1,"Mid-Term-score",score2,"Exam score",score3)
+   scores=score1 + score2 + score3
+   print("Total score is",scores)
+   student=input("what is the student's name")
+   score1=float(input("what is the C.A score"))
+   score2=float(input("what is the Mid-term-test"))
+   score3=float(input("What is the Exam score"))
+print('THE RESULT',result)
+
